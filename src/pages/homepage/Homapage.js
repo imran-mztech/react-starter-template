@@ -2,6 +2,7 @@ import {addProduct} from "../../redux/slices/product";
 import React from "react";
 import {useDispatch} from "react-redux";
 
+
 export const Homepage = () => {
     const dispatch = useDispatch()
     return (
